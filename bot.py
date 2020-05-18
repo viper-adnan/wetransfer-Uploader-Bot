@@ -25,7 +25,7 @@ dp = updater.dispatcher                                                         
 
 
 def help(update, context):
-    context.bot.send_message(chat_id=update.message.chat_id, text="I am in Beta",parse_mode=telegram.ParseMode.HTML)
+    context.bot.send_message(chat_id=update.message.chat_id,text="I am in Beta",parse_mode=telegram.ParseMode.HTML)
 
 @run_async
 def start(update,context):
