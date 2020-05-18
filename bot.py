@@ -39,7 +39,7 @@ def download(update,context):
     sent_message =context.bot.send_message(chat_id=update.message.chat_id,text ="Trying To download  ....")
 
     # dest = "C:\\Downloads\\" # or '~/Downloads/' on linux
-    dest = "Downloads/"
+    dest = "/app/downloads"
     # dest = "Downloads\\" #For windows
 
     try:
