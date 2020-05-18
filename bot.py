@@ -91,3 +91,4 @@ dp.add_handler(help_handler)
 
 updater.start_polling()
 updater.idle()
+print('Bot Started !')
